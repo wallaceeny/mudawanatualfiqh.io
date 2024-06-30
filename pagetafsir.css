@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    text-emphasis-color: white;
+    text-indent: 50px;
+    position: absolute;
+    background-color: #ac8815;
+    
+    }
+
+    .btn {
+        background-color: #000000;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px;
+    }
