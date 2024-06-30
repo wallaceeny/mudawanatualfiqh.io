@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    text-emphasis-color: white;
+    position: absolute;
+    background-color: #ac8815;
+    
+    }
+
+.btn {
+    background-color: #8b0a0a;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn2 {
+    background-color: #116094;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn3 {
+    background-color: #2d830b;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn4 {
+    background-color: #af7012;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
