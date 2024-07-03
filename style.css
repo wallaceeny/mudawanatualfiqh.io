@@ -2,20 +2,11 @@ body{
     text-align: center;
     text-emphasis-color: white;
     position: absolute;
+    background-image: url('Blurred-Web-Backgrounds-HD-Wallpaper.jpg'); 
     font-family: 'Trebuchet MS';
     
     }
-    .background-container {
-        width: 100%;
-        height: 100vh; 
-        background-image: url('Blurred-Web-Backgrounds-HD-Wallpaper.jpg'); 
-        background-size: cover; 
-        background-position: center; 
-        background-repeat: no-repeat; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
     .btn {
         background-color: #1f53a1;
         border: none;
