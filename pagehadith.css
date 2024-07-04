@@ -5,3 +5,12 @@ body{
     background-color: #ac8815;
     background-image: url('Blurred-Web-Backgrounds-HD-Wallpaper.jpg'); 
     }
+
+    .btn {
+        background-color: #e4c40e;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px;
+    }
