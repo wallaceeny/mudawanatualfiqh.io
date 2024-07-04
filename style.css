@@ -6,6 +6,30 @@ body{
     
     }
 
+    .btnaq {
+        background-color: #17c3da;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .btnfi {
+        background-color: #11a01d;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .btnta {
+        background-color: #e4c40e;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px;
+    }
     .btn {
         background-color: #1f53a1;
         border: none;
