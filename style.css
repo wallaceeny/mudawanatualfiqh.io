@@ -1,7 +1,10 @@
 body{
     text-align: center;
     text-emphasis-color: white;
-    background-image: url('fondsite.avif'); 
+    background-image: url('fondsite.avif');
+    background-size: 1366px 768px;
+    width: 1366px;
+    height: 4000px; 
     font-family: 'Trebuchet MS';
     background-repeat: no-repeat;
     
