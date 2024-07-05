@@ -68,17 +68,17 @@ body{
       }
       
       #blog {
-        top: 80px;
+        top: 140px;
         background-color: #2196F3; /* Blue */
       }
       
       #projects {
-        top: 140px;
+        top: 260px;
         background-color: #f44336; /* Red */
       }
       
       #contact {
-        top: 200px;
+        top: 380px;
         background-color: #555 /* Light Black */
       }
       
