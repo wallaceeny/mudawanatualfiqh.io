@@ -6,44 +6,7 @@ body{
     background-repeat: no-repeat;
     
     }
-
-
-    
-    .btnaq {
-        background-color: #17c3dac0;
-        border: none;
-        color: white;
-        padding: 12px 30px;
-        cursor: pointer;
-        font-size: 20px;
-    }
-
-    .btnfi {
-        background-color: #11a01d;
-        border: none;
-        color: white;
-        padding: 12px 30px;
-        cursor: pointer;
-        font-size: 20px;
-    }
-
-    .btnta {
-        background-color: #e4c40e;
-        border: none;
-        color: white;
-        padding: 12px 30px;
-        cursor: pointer;
-        font-size: 20px;
-    }
-
-    .btndimu {
-        background-color: #1f53a1;
-        border: none;
-        color: white;
-        padding: 12px 30px;
-        cursor: pointer;
-        font-size: 20px;
-    }
+   
 
     #mySidenav a {
         position: absolute; /* Position them relative to the browser window */
