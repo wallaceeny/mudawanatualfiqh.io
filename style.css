@@ -69,15 +69,20 @@ body{
       
       #blog {
         top: 100px;
-        background-color: #2196F3; /* Blue */
+        background-color: #0963ad; /* Blue */
       }
       
       #projects {
         top: 180px;
-        background-color: #f44336; /* Red */
+        background-color: #bb1d11; /* Red */
       }
       
       #contact {
         top: 260px;
-        background-color: #555 /* Light Black */
+        background-color: #ffae00 /* Light Black */
+      }
+
+      #telemuda {
+        top: 340px;
+        background-color: #ffffff /* Light Black */
       }
