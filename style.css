@@ -18,34 +18,35 @@ body{
         font-size: 20px; /* Increase font size */
         color: white; /* White text color */
         border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-        margin-bottom: -20px; /* Slightly overlap the buttons */
-      }
-      
-      #mySidenav a:hover {
+        margin-bottom: 10px; /* Ensure there is spacing between the buttons */
+    }
+    
+    #mySidenav a:hover {
         left: 0; /* On mouse-over, make the elements appear as they should */
-      }
-      
-      #about {
+    }
+    
+    #about {
         top: 30px;
         background-color: #04AA6D;
-      }
-      
-      #blog {
-        top: 100px;
+    }
+    
+    #blog {
+        top: 110px;
         background-color: #0963ad; /* Blue */
-      }
-      
-      #projects {
-        top: 180px;
+    }
+    
+    #projects {
+        top: 190px;
         background-color: #bb1d11; /* Red */
-      }
-      
-      #contact {
-        top: 260px;
+    }
+    
+    #contact {
+        top: 270px;
         background-color: #ffae00 /* Light Black */
-      }
-
-      #telemuda {
-        top: 340px;
-        background-color: #ffffff /* Light Black */
-      }
+    }
+    
+    #telemuda {
+        top: 350px;
+        background-color: #000000; /* Black */
+        color: white; /* Ensure text is visible */
+    }
