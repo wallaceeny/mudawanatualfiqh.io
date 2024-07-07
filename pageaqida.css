@@ -1,13 +1,5 @@
-body{
-    text-align: center;
-    text-emphasis-color: white;
-    position: absolute;
-    background-color: #ac8815;
-    background-image: url('Blurred-Web-Backgrounds-HD-Wallpaper.jpg'); 
-    }
-
     /* Navbar container */
-.navbar {
+    .navbar {
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
