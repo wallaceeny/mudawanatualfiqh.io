@@ -8,38 +8,97 @@
     <body>
 
 <center>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .content {
+        display: none;
+        padding: 20px;
+        border: 1px solid #ddd;
+        margin-top: 10px;
+    }
+
+    .links-container {
+        max-height: 200px;
+        overflow-y: auto;
+    }
+
+    /* Styles pour afficher le contenu au survol */
+    #homeLink:hover + #homeContent,
+    #homeContent:hover,
+    #newsLink:hover + #newsContent,
+    #newsContent:hover,
+    #linksLink:hover + #linksContent,
+    #linksContent:hover {
+        display: block;
+    }
+</style>
+</head>
+<body>
 
 <div class="navbar">
-    <a href="#home">Home</a>
-    <a href="#news">News</a>
+    <a href="#" id="homeLink">Home</a>
+    <a href="#" id="newsLink">News</a>
     <div class="dropdown">
-      <button class="dropbtn">Dropdown
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <div class="header">
-          <h2>Mega Menu</h2>
+        <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <div class="header">
+                <h2>Mega Menu</h2>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h3>Category 1</h3>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+                <div class="column">
+                    <h3>Category 2</h3>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+                <div class="column">
+                    <h3>Category 3</h3>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="column">
-            <h3>Category 1</h3>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-          <div class="column">
-            <h3>Category 2</h3>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-          <div class="column">
-            <h3>Category 3</h3>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
+
+<div id="homeContent" class="content">
+    <h2>Home</h2>
+    <p>Informations sur la page Home.</p>
+</div>
+
+<div id="newsContent" class="content">
+    <h2>News</h2>
+    <p>Informations sur la page News.</p>
+</div>
+
+<div id="linksContent" class="content links-container">
+    <h2>Links</h2>
+    <ul>
+        <!-- Liste de liens ici -->
+        <li><a href="#">Lien 1</a></li>
+        <li><a href="#">Lien 2</a></li>
+        <li><a href="#">Lien 3</a></li>
+        <li><a href="#">Lien 4</a></li>
+        <li><a href="#">Lien 5</a></li>
+        <!-- Ajouter autant de liens que nécessaire -->
+    </ul>
+</div>
+
+<script>
+    // Aucune fonction JavaScript nécessaire car tout est géré par CSS
+</script>
+
+</body>
+</html>
