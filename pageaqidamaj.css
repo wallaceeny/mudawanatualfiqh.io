@@ -18,12 +18,6 @@ body {
     overflow-y: auto;
 }
 
-/* Styles pour afficher le contenu au survol */
-.navbar a:hover + .content,
-.content:hover {
-    display: block;
-}
-
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -107,7 +101,6 @@ body {
     clear: both;
 }
 
-/* Ajout de styles pour l'animation et la performance */
 .content {
     transition: opacity 0.3s ease;
     opacity: 0;
