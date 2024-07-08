@@ -6,17 +6,17 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 20px;
 }
 
 .info-section {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 100%;
     padding: 20px;
     background-color: #f9f9f9;
-    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 .welcome-message, .news {
@@ -46,7 +46,7 @@ body {
 }
 
 .dropdown-section {
-    width: 75%;
+    width: 100%;
     padding: 20px;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 .column {
-    width: 50%;
+    width: 100%;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -98,4 +98,25 @@ body {
 
 .scrollable-category a:hover {
     background-color: #f0f0f0;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .info-section {
+        width: 25%;
+        border-right: 1px solid #ddd;
+        border-bottom: none;
+    }
+
+    .dropdown-section {
+        width: 75%;
+    }
+
+    .column {
+        width: 50%;
+    }
 }
