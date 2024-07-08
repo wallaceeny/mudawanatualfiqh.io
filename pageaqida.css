@@ -1,27 +1,50 @@
 /* Navbar container */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+}
+
+.links-container {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* Styles pour afficher le contenu au survol */
+.navbar a:hover + .content,
+.content:hover {
+    display: block;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
 }
 
-/* Links inside the navbar */
 .navbar a {
     float: left;
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    position: relative;
 }
 
-/* The dropdown container */
 .dropdown {
     float: left;
     overflow: hidden;
 }
 
-/* Dropdown button */
 .dropdown .dropbtn {
     font-size: 16px;
     border: none;
@@ -29,16 +52,14 @@
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
+    font: inherit;
+    margin: 0;
 }
 
-/* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
 
-/* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -49,19 +70,16 @@
     z-index: 1;
 }
 
-/* Mega Menu header, if needed */
 .dropdown-content .header {
     background: red;
     padding: 16px;
     color: white;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Create three equal columns that floats next to each other */
 .column {
     float: left;
     width: 33.33%;
@@ -70,7 +88,6 @@
     height: 250px;
 }
 
-/* Style links inside the columns */
 .column a {
     float: none;
     color: black;
@@ -80,14 +97,24 @@
     text-align: left;
 }
 
-/* Add a background color on hover */
 .column a:hover {
     background-color: #ddd;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Ajout de styles pour l'animation et la performance */
+.content {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.navbar a:hover + .content,
+.content:hover {
+    display: block;
+    opacity: 1;
 }
