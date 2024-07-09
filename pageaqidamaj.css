@@ -59,7 +59,7 @@ body {
 }
 
 .header {
-    background: red;
+    background: #0a79d4; /* Utilisation de la couleur bleue choisie */
     padding: 16px;
     color: white;
     text-align: center;
