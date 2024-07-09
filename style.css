@@ -1,52 +1,107 @@
-body{
+body {
     text-align: center;
-    text-emphasis-color: white;;
-    background-color: bisque;
+    background-color: #e6f7ff; /* Bleu pastel */
     font-family: 'Trebuchet MS';
+    margin: 0;
+    padding: 0;
     background-repeat: no-repeat;
-    
-    }
-   
+}
 
-    #mySidenav a {
-        position: absolute; /* Position them relative to the browser window */
-        left: -80px; /* Position them outside of the screen */
-        transition: 0.3s; /* Add transition on hover */
-        padding: 15px; /* 15px padding */
-        width: 100px; /* Set a specific width */
-        text-decoration: none; /* Remove underline */
-        font-size: 20px; /* Increase font size */
-        color: white; /* White text color */
-        border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-        margin-bottom: 10px; /* Ensure there is spacing between the buttons */
-    }
-    
-    #mySidenav a:hover {
-        left: 0; /* On mouse-over, make the elements appear as they should */
-    }
-    
-    #about {
-        top: 30px;
-        background-color: #04AA6D;
-    }
-    
-    #blog {
-        top: 100px;
-        background-color: #0963ad; /* Blue */
-    }
-    
-    #projects {
-        top: 190px;
-        background-color: #bb1d11; /* Red */
-    }
-    
-    #contact {
-        top: 270px;
-        background-color: #ffae00 /* Light Black */
-    }
-    
-    #telemuda {
-        top: 350px;
-        background-color: #000000; /* Black */
-        color: white; /* Ensure text is visible */
-    }
+h1 {
+    color: #003366; /* Bleu foncé */
+}
+
+h2, h3, h4, p {
+    color: #004080; /* Bleu basique */
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    margin-bottom: 10px;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 30px;
+    background-color: #003366; /* Bleu foncé */
+}
+
+#blog {
+    top: 100px;
+    background-color: #004080; /* Bleu basique */
+}
+
+#projects {
+    top: 170px;
+    background-color: #1a75ff; /* Bleu clair */
+}
+
+#contact {
+    top: 240px;
+    background-color: #0059b3; /* Bleu moyen */
+}
+
+#telemuda {
+    top: 310px;
+    background-color: #0099cc; /* Bleu cyan */
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 230px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* Button color classes */
+.button-blue { background-color: #003366; } /* Bleu foncé */
+.button-red { background-color: #ff3300; } /* Rouge vif */
+.button-green { background-color: #33cc33; } /* Vert */
+.button-yellow { background-color: #ffcc00; } /* Jaune */
+.button-pink { background-color: #ff66cc; } /* Rose */
+.button-purple { background-color: #800080; } /* Violet */
+.button-darkblue { background-color: #0f1788; } /* Bleu très foncé */
+.button-black { background-color: #000000; } /* Noir */
