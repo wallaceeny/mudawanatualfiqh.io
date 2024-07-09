@@ -12,73 +12,33 @@ h1 {
 }
 
 h2, h3, h4, p {
-    color:  #c6d8eb /* Bleu basique */
+    color: #c6d8eb; /* Bleu basique */
 }
 
-#mySidenav a {
-    position: absolute;
-    left: -80px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 200px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    border-radius: 0 5px 5px 0;
-    margin-bottom: 10px;
-}
-
-#mySidenav a:hover {
-    left: 0;
-}
-
-#about {
-    top: 20px;
-    background-color: #003366; /* Bleu foncé */
-}
-
-#blog {
-    top: 100px;
-    background-color: #004080; /* Bleu basique */
-}
-
-#projects {
-    top: 160px;
-    background-color: #1a75ff; /* Bleu clair */
-}
-
-#contact {
-    top: 2100px;
-    background-color: #0059b3; /* Bleu moyen */
-}
-
-#telemuda {
-    top: 320px;
-    background-color: #003366; /* Bleu cyan */
-}
-
-.button {
+/* Button styles */
+.button, .button1, .button2, .button3, .button4, .button5, .button6, .button7 {
     display: inline-block;
     border-radius: 4px;
+    background-color: #003366; /* Bleu très foncé */
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
     padding: 20px;
-    width: 230px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    width: 230px;
 }
 
-.button span {
+.button span, .button1 span, .button2 span, .button3 span, .button4 span, .button5 span, .button6 span, .button7 span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
 
-.button span:after {
+.button span:after, .button1 span:after, .button2 span:after, .button3 span:after, .button4 span:after, .button5 span:after, .button6 span:after, .button7 span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -87,24 +47,14 @@ h2, h3, h4, p {
     transition: 0.5s;
 }
 
-.button:hover span {
+.button:hover span, .button1:hover span, .button2:hover span, .button3:hover span, .button4:hover span, .button5:hover span, .button6:hover span, .button7:hover span {
     padding-right: 25px;
 }
 
-.button:hover span:after {
+.button:hover span:after, .button1:hover span:after, .button2:hover span:after, .button3:hover span:after, .button4:hover span:after, .button5:hover span:after, .button6:hover span:after, .button7:hover span:after {
     opacity: 1;
     right: 0;
 }
-
-/* Button color classes */
-.button-blue { background-color: #003366; } /*  /* Bleu très foncé */ */
-.button-red { background-color: #003366; } /*  /* Bleu très foncé */ */
-.button-green { background-color: #003366; } /*  /* Bleu très foncé */*/
-.button-yellow { background-color: #003366; } /*  /* Bleu très foncé */*/
-.button-pink { background-color: #003366; } /*  /* Bleu très foncé */*/
-.button-purple { background-color: #003366; } /*  /* Bleu très foncé */*/
-.button-darkblue { background-color: #003366; } /* Bleu très foncé */
-.button-black { background-color: #003366; } /*  /* Bleu très foncé */*/
 
 /* Header styles */
 header {
