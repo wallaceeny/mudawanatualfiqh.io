@@ -3,15 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <class></class>
 </head>
 <body>
-    <div id="mySidenav" class="sidenav">
-        <a href="https://quran.com/" id="about">Lire le Coran</a>
-        <a href="https://discord.gg/WUdASd2ht2" id="blog">Nous rejoindre sur discord</a>
-        <a href="https://discord.gg/islamfrance" id="projects">En savoir plus sur l'Islam</a>
-        <a href="https://t.me/questionpourunmuslim" id="contact">Augmenter sa culture islamique</a>
-        <a href="https://t.me/+yt99JH_QZHM5NGI0" id="telemuda">Nous rejoindre sur Telegram</a>
+    <header>
+        <div class="menu-container">
+            <div class="logo">
+                <h1>Mon Site</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="https://quran.com/">Lire le Coran</a></li>
+                    <li><a href="https://discord.gg/WUdASd2ht2">Nous rejoindre sur Discord</a></li>
+                    <li><a href="https://discord.gg/islamfrance">En savoir plus sur l'Islam</a></li>
+                    <li><a href="https://t.me/questionpourunmuslim">Augmenter sa culture islamique</a></li>
+                    <li><a href="https://t.me/+yt99JH_QZHM5NGI0">Nous rejoindre sur Telegram</a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="https://quran.com/">Lire le Coran</a>
+        <a href="https://discord.gg/WUdASd2ht2">Nous rejoindre sur Discord</a>
+        <a href="https://discord.gg/islamfrance">En savoir plus sur l'Islam</a>
+        <a href="https://t.me/questionpourunmuslim">Augmenter sa culture islamique</a>
+        <a href="https://t.me/+yt99JH_QZHM5NGI0">Nous rejoindre sur Telegram</a>
     </div>
 
     <h1>Bienvenue sur notre plateforme</h1>
@@ -22,358 +43,41 @@
     <br>
     <h3>Choisissez un thème :</h3>
 
-    <style>
-        .button {
-            display: inline-block;
-            border-radius: 4px;
-            background-color: #003366;
-            border: none;
-            color: #FFFFFF;
-            text-align: center;
-            font-size: 28px;
-            padding: 20px;
-            width: 200px;
-            transition: all 0.5s;
-            cursor: pointer;
-            margin: 5px;
-          }
-          .button span {
-          cursor: pointer;
-          display: inline-block;
-          position: relative;
-          transition: 0.5s;
-        }
-        .button span:after {
-          content: '\00bb';
-          position: absolute;
-          opacity: 0;
-          top: 0;
-          right: -20px;
-          transition: 0.5s;
-        }
-        .button:hover span {
-          padding-right: 25px;
-        }
-        .button:hover span:after {
-          opacity: 1;
-          right: 0;
-        }
-        
-        
-          </style>
-        
-        <br> <a href="pageaqida.html"><button class="button" style="vertical-align:middle"><span> Croyance </span></button> </a>
-        <br>
-        <br>
-        <br>
-        <style>
-            .button1 {
-                display: inline-block;
-                border-radius: 4px;
-                background-color: #003366;
-                border: none;
-                color: #FFFFFF;
-                text-align: center;
-                font-size: 28px;
-                padding: 20px;
-                width: 230px;
-                transition: all 0.5s;
-                cursor: pointer;
-                margin: 5px;
-              }
-              .button1 span {
-              cursor: pointer;
-              display: inline-block;
-              position: relative;
-              transition: 0.5s;
-            }
-            .button1 span:after {
-              content: '\00bb';
-              position: absolute;
-              opacity: 0;
-              top: 0;
-              right: -20px;
-              transition: 0.5s;
-            }
-            .button1:hover span {
-              padding-right: 25px;
-            }
-            .button1:hover span:after {
-              opacity: 1;
-              right: 0;
-            }
-            
-            
-              </style>
-            
-        <br>
-        <a href="pagefiqh.html"><button class="button1" style="vertical-align:middle"><span> Jurisprudence</span></button> </a><br>
-        <br>
-        <br>
-        <br>
-        <style>
-            .button2 {
-                display: inline-block;
-                border-radius: 4px;
-                background-color: #003366;
-                border: none;
-                color: #FFFFFF;
-                text-align: center;
-                font-size: 28px;
-                padding: 20px;
-                width: 230px;
-                transition: all 0.5s;
-                cursor: pointer;
-                margin: 5px;
-              }
-              .button2 span {
-              cursor: pointer;
-              display: inline-block;
-              position: relative;
-              transition: 0.5s;
-            }
-            .button2 span:after {
-              content: '\00bb';
-              position: absolute;
-              opacity: 0;
-              top: 0;
-              right: -20px;
-              transition: 0.5s;
-            }
-            .button2:hover span {
-              padding-right: 25px;
-            }
-            .button2:hover span:after {
-              opacity: 1;
-              right: 0;
-            }
-            
-            
-              </style>
-            
-        <br>
-        <a href="pagetafsir.html"><button class="button2" style="vertical-align:middle"><span> Exégèse du Coran </span></button> </a><br>
-        <br>
-        <br> 
-        <br>
-        <style>
-            .button3 {
-                display: inline-block;
-                border-radius: 4px;
-                background-color: #003366;
-                border: none;
-                color: #FFFFFF;
-                text-align: center;
-                font-size: 28px;
-                padding: 20px;
-                width: 230px;
-                transition: all 0.5s;
-                cursor: pointer;
-                margin: 5px;
-              }
-              .button3 span {
-              cursor: pointer;
-              display: inline-block;
-              position: relative;
-              transition: 0.5s;
-            }
-            .button3 span:after {
-              content: '\00bb';
-              position: absolute;
-              opacity: 0;
-              top: 0;
-              right: -20px;
-              transition: 0.5s;
-            }
-            .button3:hover span {
-              padding-right: 25px;
-            }
-            .button3:hover span:after {
-              opacity: 1;
-              right: 0;
-            }
-            
-            
-              </style>
-        <br>
-        <a href="pagearabe.html"><button class="button3" style="vertical-align:middle"><span> Langue arabe </span></button> </a><br>
-        <br>
-        <br>
-        <br>
-        <style>
-            .button4 {
-                display: inline-block;
-                border-radius: 4px;
-                background-color: #003366;
-                border: none;
-                color: #FFFFFF;
-                text-align: center;
-                font-size: 28px;
-                padding: 20px;
-                width: 230px;
-                transition: all 0.5s;
-                cursor: pointer;
-                margin: 5px;
-              }
-              .button4 span {
-              cursor: pointer;
-              display: inline-block;
-              position: relative;
-              transition: 0.5s;
-            }
-            .button4 span:after {
-              content: '\00bb';
-              position: absolute;
-              opacity: 0;
-              top: 0;
-              right: -20px;
-              transition: 0.5s;
-            }
-            .button4:hover span {
-              padding-right: 25px;
-            }
-            .button4:hover span:after {
-              opacity: 1;
-              right: 0;
-            }
-            
-            
-              </style>
-        <br>
-        <a href="pagehadith.html"><button class="button4" style="vertical-align:middle"><span> Hadiths </span></button> </a><br>
-        <br>
-        <br>
-        <br>
-        <style>
-        .button5 {
-            display: inline-block;
-            border-radius: 4px;
-            background-color: #003366;
-            border: none;
-            color: #FFFFFF;
-            text-align: center;
-            font-size: 28px;
-            padding: 20px;
-            width: 230px;
-            transition: all 0.5s;
-            cursor: pointer;
-            margin: 5px;
-          }
-          .button5 span {
-          cursor: pointer;
-          display: inline-block;
-          position: relative;
-          transition: 0.5s;
-        }
-        .button5 span:after {
-          content: '\00bb';
-          position: absolute;
-          opacity: 0;
-          top: 0;
-          right: -20px;
-          transition: 0.5s;
-        }
-        .button5:hover span {
-          padding-right: 25px;
-        }
-        .button5:hover span:after {
-          opacity: 1;
-          right: 0;
-        }
-        </style>
-        <br>
-        <a href="pageadab.html"><button class="button5" style="vertical-align:middle"><span> Bon comportement </span></button> </a><br>
-        <br>
-        <br>
-        <br>
-        <style>
-        .button6 {
-            display: inline-block;
-            border-radius: 4px;
-            background-color: #003366;
-            border: none;
-            color: #FFFFFF;
-            text-align: center;
-            font-size: 28px;
-            padding: 20px;
-            width: 230px;
-            transition: all 0.5s;
-            cursor: pointer;
-            margin: 5px;
-          }
-          .button6 span {
-          cursor: pointer;
-          display: inline-block;
-          position: relative;
-          transition: 0.5s;
-        }
-        .button6 span:after {
-          content: '\00bb';
-          position: absolute;
-          opacity: 0;
-          top: 0;
-          right: -20px;
-          transition: 0.5s;
-        }
-        .button6:hover span {
-          padding-right: 25px;
-        }
-        .button6:hover span:after {
-          opacity: 1;
-          right: 0;
-        }
-        </style>
-        <br>
-        <a href="pagesira.html"><button class="button6" style="vertical-align:middle"><span> Biographie du Prophète </span></button> </a><br>
-        <br>
-        <br>
-        <br>
-        <style>
-        .button7 {
-            display: inline-block;
-            border-radius: 4px;
-            background-color: #003366;
-            border: none;
-            color: #FFFFFF;
-            text-align: center;
-            font-size: 28px;
-            padding: 20px;
-            width: 230px;
-            transition: all 0.5s;
-            cursor: pointer;
-            margin: 5px;
-          }
-          .button7 span {
-          cursor: pointer;
-          display: inline-block;
-          position: relative;
-          transition: 0.5s;
-        }
-        .button7 span:after {
-          content: '\00bb';
-          position: absolute;
-          opacity: 0;
-          top: 0;
-          right: -20px;
-          transition: 0.5s;
-        }
-        .button7:hover span {
-          padding-right: 25px;
-        }
-        .button7:hover span:after {
-          opacity: 1;
-          right: 0;
-        }
-        </style>
-        <br>
-        <a href="autres.html"><button class="button7" style="vertical-align:middle"><span> Autres </span></button> </a>
-        <br> Qu'Allah récompense les différents contributeurs du site.
-        <br> Pour nous rejoindre sur le Telegram <a href="https://t.me/+yt99JH_QZHM5NGI0">cliquez ici.</a>
+    <a href="pageaqida.html"><button class="button" style="vertical-align:middle"><span>Croyance</span></button></a>
+    <br><br><br>
+    <a href="pagefiqh.html"><button class="button1" style="vertical-align:middle"><span>Jurisprudence</span></button></a>
+    <br><br><br>
+    <a href="pagetafsir.html"><button class="button2" style="vertical-align:middle"><span>Exégèse du Coran</span></button></a>
+    <br><br><br>
+    <a href="pagearabe.html"><button class="button3" style="vertical-align:middle"><span>Langue arabe</span></button></a>
+    <br><br><br>
+    <a href="pagehadith.html"><button class="button4" style="vertical-align:middle"><span>Hadiths</span></button></a>
+    <br><br><br>
+    <a href="pageadab.html"><button class="button5" style="vertical-align:middle"><span>Bon comportement</span></button></a>
+    <br><br><br>
+    <a href="pagesira.html"><button class="button6" style="vertical-align:middle"><span>Biographie du Prophète</span></button></a>
+    <br><br><br>
+    <a href="autres.html"><button class="button7" style="vertical-align:middle"><span>Autres</span></button></a>
     <br>
-    <small> Par ici ! </small>
+    Qu'Allah récompense les différents contributeurs du site.
+    <br>
+    Pour nous rejoindre sur le Telegram <a href="https://t.me/+yt99JH_QZHM5NGI0">cliquez ici</a>.
+    <br>
+    <small>Par ici !</small>
     <h2>Autres articles :</h2>
     <h3>Les endroits bénéfiques pour apprendre la religion d'Allah :</h3>
     <h4>Le Sentier du Salut</h4>
     <p>Chaîne Telegram très intéressante sur laquelle des cours sont dispensés. Rejoindre Le Sentier du Salut</p>
+
+    <script>
+        document.getElementById('burger-menu').onclick = function() {
+            var mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu.style.display === 'block') {
+                mobileMenu.style.display = 'none';
+            } else {
+                mobileMenu.style.display = 'block';
+            }
+        }
+    </script>
 </body>
 </html>
