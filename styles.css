@@ -8,11 +8,11 @@ body {
 }
 
 h1 {
-    color: #003366; /* Bleu foncé */
+    color: #c6d8eb; /* Bleu foncé */
 }
 
 h2, h3, h4, p {
-    color: #004080; /* Bleu basique */
+    color:  #c6d8eb /* Bleu basique */
 }
 
 #mySidenav a {
@@ -33,7 +33,7 @@ h2, h3, h4, p {
 }
 
 #about {
-    top: 30px;
+    top: 40px;
     background-color: #003366; /* Bleu foncé */
 }
 
@@ -43,18 +43,18 @@ h2, h3, h4, p {
 }
 
 #projects {
-    top: 170px;
+    top: 180px;
     background-color: #1a75ff; /* Bleu clair */
 }
 
 #contact {
-    top: 240px;
+    top: 260px;
     background-color: #0059b3; /* Bleu moyen */
 }
 
 #telemuda {
-    top: 310px;
-    background-color: #0099cc; /* Bleu cyan */
+    top: 320px;
+    background-color: #003366; /* Bleu cyan */
 }
 
 .button {
