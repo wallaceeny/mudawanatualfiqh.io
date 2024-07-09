@@ -98,10 +98,10 @@ h2, h3, h4, p {
 
 /* Button color classes */
 .button-blue { background-color: #003366; } /* Bleu foncé */
-.button-red { background-color: #ff3300; } /* Rouge vif */
-.button-green { background-color: #33cc33; } /* Vert */
-.button-yellow { background-color: #ffcc00; } /* Jaune */
-.button-pink { background-color: #ff66cc; } /* Rose */
-.button-purple { background-color: #800080; } /* Violet */
-.button-darkblue { background-color: #0f1788; } /* Bleu très foncé */
-.button-black { background-color: #000000; } /* Noir */
+.button-red { background-color: #003366; } /* Rouge vif */
+.button-green { background-color: #003366; } /* Vert */
+.button-yellow { background-color: #003366; } /* Jaune */
+.button-pink { background-color: #003366; } /* Rose */
+.button-purple { background-color: #003366; } /* Violet */
+.button-darkblue { background-color: #003366; } /* Bleu très foncé */
+.button-black { background-color: #003366; } /* Noir */
