@@ -3,56 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <title>Plateforme Islamique</title>
 </head>
 <body>
-    <div id="mySidenav" class="sidenav">
-        <a href="https://quran.com/" id="about">Lire le Coran</a>
-        <a href="https://discord.gg/WUdASd2ht2" id="blog">Nous rejoindre sur discord</a>
-        <a href="https://discord.gg/islamfrance" id="projects">En savoir plus sur l'Islam</a>
-        <a href="https://t.me/questionpourunmuslim" id="contact">Augmenter sa culture islamique</a>
-        <a href="https://t.me/+yt99JH_QZHM5NGI0" id="telemuda">Nous rejoindre sur Telegram</a>
+    <header>
+        <div class="menu-container">
+            <div class="logo">
+                <h1>Mudawanatu al Fiqh</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="https://quran.com/">Lire le Coran</a></li>
+                    <li><a href="https://discord.gg/WUdASd2ht2">Nous rejoindre sur Discord</a></li>
+                    <li><a href="https://discord.gg/islamfrance">En savoir plus sur l'Islam</a></li>
+                    <li><a href="https://t.me/questionpourunmuslim">Augmenter sa culture islamique</a></li>
+                    <li><a href="https://t.me/+yt99JH_QZHM5NGI0">Nous rejoindre sur Telegram</a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="https://quran.com/">Lire le Coran</a>
+        <a href="https://discord.gg/WUdASd2ht2">Nous rejoindre sur Discord</a>
+        <a href="https://discord.gg/islamfrance">En savoir plus sur l'Islam</a>
+        <a href="https://t.me/questionpourunmuslim">Augmenter sa culture islamique</a>
+        <a href="https://t.me/+yt99JH_QZHM5NGI0">Nous rejoindre sur Telegram</a>
     </div>
 
-    <nav>
-        <div class="burger-menu" onclick="toggleMobileMenu()">&#9776;</div>
-        <div class="mobile-menu" id="mobileMenu">
-            <a href="index.html">Accueil</a>
-            <a href="about.html">À propos</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </nav>
-
     <h1>Bienvenue sur notre plateforme</h1>
-    <br><br>
+    <br>
     <h2>Regroupement des prises de notes (en PDF) des cours de sciences religieuses mis en place par l'équipe de gestion Mudawanatu al-Fiqh.</h2>
-    <br><br>
+    <br>
     <h3>Choisissez un thème :</h3>
 
-    <a href="pageaqida.html"><button class="button"><span> Croyance </span></button></a>
-    <a href="pagefiqh.html"><button class="button"><span> Jurisprudence</span></button></a>
-    <a href="pagetafsir.html"><button class="button"><span> Exégèse du Coran </span></button></a>
-    <a href="pagearabe.html"><button class="button"><span> Langue arabe </span></button></a>
-    <br>
-    <br>
-    <br>
-    <a href="pagehadith.html"><button class="button"><span> Hadiths </span></button></a>
-    <a href="pageadab.html"><button class="button"><span> Bon comportement </span></button></a>
-    <a href="pagesira.html"><button class="button"><span> Biographie du Prophète </span></button></a>
-    <a href="autres.html"><button class="button"><span> Autres </span></button></a>
+    <a href="pageaqida.html"><button class="button" style="vertical-align:middle"><span>Croyance</span></button></a>
+    <a href="pagefiqh.html"><button class="button1" style="vertical-align:middle"><span>Jurisprudence</span></button></a>
+    <a href="pagetafsir.html"><button class="button2" style="vertical-align:middle"><span>Exégèse du Coran</span></button></a>
+    <a href="pagearabe.html"><button class="button3" style="vertical-align:middle"><span>Langue arabe</span></button></a>
 
     <br>
-    Qu'Allah récompense les différents contributeurs du site. Pour nous rejoindre sur le Telegram <a href="https://t.me/+yt99JH_QZHM5NGI0">cliquez ici.</a>
     <br>
-    <small> Par ici ! </small>
+    <br>
+    <a href="pagehadith.html"><button class="button4" style="vertical-align:middle"><span>Hadiths</span></button></a>
+    <a href="pageadab.html"><button class="button5" style="vertical-align:middle"><span>Bon comportement</span></button></a>
+    <a href="pagesira.html"><button class="button6" style="vertical-align:middle"><span>Biographie du Prophète</span></button></a>
+    <a href="autres.html"><button class="button7" style="vertical-align:middle"><span>Autres</span></button></a>
+    <br>
+    Qu'Allah récompense les différents contributeurs du site.
+    <br>
+    Pour nous rejoindre sur le Telegram <a href="https://t.me/+yt99JH_QZHM5NGI0">cliquez ici</a>.
+    <br>
+    <small>Par ici !</small>
     <h2>Autres articles :</h2>
     <h3>Les endroits bénéfiques pour apprendre la religion d'Allah :</h3>
     <h4>Le Sentier du Salut</h4>
     <p>Chaîne Telegram très intéressante sur laquelle des cours sont dispensés. Rejoindre Le Sentier du Salut</p>
 
     <script>
-        function toggleMobileMenu() {
-            const mobileMenu = document.getElementById('mobileMenu');
+        document.getElementById('burger-menu').onclick = function() {
+            var mobileMenu = document.getElementById('mobile-menu');
             if (mobileMenu.style.display === 'block') {
                 mobileMenu.style.display = 'none';
             } else {
