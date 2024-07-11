@@ -6,40 +6,54 @@
     <title>Hub Tafsir</title>
 </head>
 <body>
-    <div class="navbar">
-        <div class="dropdown">
-            <button class="dropbtn">Accueil</button>
-            <div class="dropdown-content">
-                <a href="#">Accueil 1</a>
-                <a href="#">Accueil 2</a>
-                <a href="#">Accueil 3</a>
-            </div>
-        </div> 
-        <div class="dropdown">
-            <button class="dropbtn">Informations</button>
-            <div class="dropdown-content">
-                <a href="#">Info 1</a>
-                <a href="#">Info 2</a>
-                <a href="#">Info 3</a>
-            </div>
-        </div> 
+    <div class="header">
+        <h1>Bienvenue sur notre Hub "Tafsir" | Exégèses du Coran</h1>
     </div>
 
-    <center>
-        <h1>Bienvenue sur notre Hub "Tafsir" | Exégèses du Coran </h1>
-        <h2>Voici les différentes ressources disponibles :</h2>
-        <h3>Introductions :</h3>
-        <a href="Introduction_a_la_science_du_tafsir.pdf">
-            <button class="btn"><i class="fa fa-download"></i> Télécharger/Ouvrir Introduction Science du Tafsir </button>
-        </a>    
-        <h3>Tafsir par sourates :</h3>
-        <a href="Tafsir Quran Sourate Al Fatiha - Ustadh al Hilali.pdf">
-            <button class="btn"><i class="fa fa-download"></i> Télécharger/Ouvrir Tafsir de la Sourate Al Fatiha </button>
-        </a>    
-        <!-- Ajoutez les autres liens de sourate ici -->
-        <a href="Cours de tafsir m3a 'Ustadh al Hilali Tafsir Sourate An-Nas.pdf">
-            <button class="btn"><i class="fa fa-download"></i> Télécharger/Ouvrir Tafsir de la Sourate An-Nas </button>
-        </a>
-    </center>
+    <div class="container">
+        <div class="info-section">
+            <div class="welcome-message">
+                <h2>Accueil</h2>
+                <p>Bienvenue sur notre site dédié aux exégèses du Coran.</p>
+            </div>
+            <div class="news">
+                <h2>Informations</h2>
+                <p>Toutes les dernières nouvelles et mises à jour ici.</p>
+            </div>
+            <div class="back-home">
+                <a class="back-home-button" href="#">Retour à l'accueil</a>
+            </div>
+        </div>
+
+        <div class="dropdown-section">
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <h3>Introductions</h3>
+                        <div class="scrollable-category">
+                            <a href="Introduction_a_la_science_du_tafsir.pdf">Introduction Science du Tafsir</a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3>Tafsir par sourates</h3>
+                        <div class="scrollable-category">
+                            <a href="Tafsir Quran Sourate Al Fatiha - Ustadh al Hilali.pdf">Tafsir de la Sourate Al Fatiha</a>
+                            <a href="Cours de tafsir m3a 'Ustadh al Hilali Tafsir Sourate An-Nas.pdf">Tafsir de la Sourate An-Nas</a>
+                            <!-- Ajoutez les autres liens de sourate ici -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="darkModeToggle">Mode Sombre</button>
+
+    <script>
+        const toggleButton = document.getElementById('darkModeToggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
 </body>
 </html>
