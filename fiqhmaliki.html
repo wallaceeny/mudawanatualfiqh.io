@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Mega Menu</title>
-    <link rel="stylesheet" href="fiqhmalikimaj.css">
+    <link rel="stylesheet" href="fiqhmaliki.css">
 </head>
 <body>
     <div class="container">
@@ -23,7 +23,6 @@
                 <p>Voici les dernières nouvelles :</p>
                 <ul>
                     <li> L'introduction au fiqh du mariage a été publiée.</li>
-                    
                 </ul>
             </div>
             <div class="back-home">
@@ -40,30 +39,37 @@
                         <h3> Jurisprudence des relations sociales </h3>
                         <div class="scrollable-category">
                             <a href="Cours_1_fiqh_mariage.pdf">Introduction au Fiqh du mariage </a>
-                     
                         </div>
                     </div>
                     <div class="column">
                         <h3></h3>
-                        <div class="scrollable-category">
-                          
-                        </div>
+                        <div class="scrollable-category"></div>
                     </div>
                     <div class="column">
                         <h3></h3>
-                        <div class="scrollable-category">
-                           
-                        </div>
+                        <div class="scrollable-category"></div>
                     </div>
                     <div class="column">
                         <h3></h3>
-                        <div class="scrollable-category">
-                         
-                        </div>
+                        <div class="scrollable-category"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <button id="darkModeToggle">Mode Sombre</button>
+
+    <script>
+        const toggleButton = document.getElementById('darkModeToggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                toggleButton.textContent = 'Mode Clair';
+            } else {
+                toggleButton.textContent = 'Mode Sombre';
+            }
+        });
+    </script>
 </body>
 </html>

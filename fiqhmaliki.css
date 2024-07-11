@@ -2,12 +2,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     padding: 20px;
+}
+
+body.dark-mode .container {
+    background-color: #121212;
 }
 
 .info-section {
@@ -17,6 +27,12 @@ body {
     padding: 20px;
     background-color: #f9f9f9;
     border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode .info-section {
+    background-color: #333333;
+    border-bottom: 1px solid #555555;
 }
 
 .welcome-message, .news {
@@ -39,6 +55,10 @@ body {
     font-weight: bold;
 }
 
+body.dark-mode .back-home-button {
+    color: #ffffff;
+}
+
 .home-icon {
     width: 20px;
     height: 20px;
@@ -50,12 +70,22 @@ body {
     padding: 20px;
 }
 
+body.dark-mode .dropdown-section {
+    background-color: #121212;
+}
+
 .dropdown-content {
     background-color: #f9f9f9;
     padding: 20px;
     border: 1px solid #ddd;
     max-height: calc(100vh - 40px); /* Adjusted for padding */
     overflow-y: auto;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+body.dark-mode .dropdown-content {
+    background-color: #333333;
+    border: 1px solid #555555;
 }
 
 .header {
@@ -63,6 +93,10 @@ body {
     padding: 16px;
     color: white;
     text-align: center;
+}
+
+body.dark-mode .header {
+    background: darkred;
 }
 
 .row {
@@ -86,6 +120,12 @@ body {
     border: 1px solid #ddd;
     padding: 10px;
     background-color: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+body.dark-mode .scrollable-category {
+    background-color: #444444;
+    border: 1px solid #666666;
 }
 
 .scrollable-category a {
@@ -94,10 +134,38 @@ body {
     color: black;
     text-decoration: none;
     border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode .scrollable-category a {
+    color: white;
+    border-bottom: 1px solid #666666;
 }
 
 .scrollable-category a:hover {
     background-color: #f0f0f0;
+}
+
+body.dark-mode .scrollable-category a:hover {
+    background-color: #555555;
+}
+
+/* Button styles for dark mode toggle */
+#darkModeToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#darkModeToggle:hover {
+    background-color: #555;
 }
 
 /* Responsive styles */
@@ -110,6 +178,10 @@ body {
         width: 25%;
         border-right: 1px solid #ddd;
         border-bottom: none;
+    }
+
+    body.dark-mode .info-section {
+        border-right: 1px solid #555555;
     }
 
     .dropdown-section {
