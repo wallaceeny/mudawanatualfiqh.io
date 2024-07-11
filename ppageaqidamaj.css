@@ -2,6 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
 }
 
 .container {
@@ -17,6 +23,12 @@ body {
     padding: 20px;
     background-color: #f9f9f9;
     border-right: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+body.dark-mode .info-section {
+    background-color: #333333;
+    border-right: 1px solid #555555;
 }
 
 .welcome-message, .news {
@@ -45,6 +57,10 @@ body {
     background-color: #555;
 }
 
+body.dark-mode .back-home-button {
+    background-color: #555;
+}
+
 .dropdown-section {
     flex: 3 1 70%;
     padding: 20px;
@@ -56,6 +72,12 @@ body {
     border: 1px solid #ddd;
     max-height: calc(100vh - 40px); /* Adjusted for padding */
     overflow-y: auto;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+body.dark-mode .dropdown-content {
+    background-color: #333333;
+    border: 1px solid #555555;
 }
 
 .header {
@@ -63,6 +85,10 @@ body {
     padding: 16px;
     color: white;
     text-align: center;
+}
+
+body.dark-mode .header {
+    background: #005bb5;
 }
 
 .row {
@@ -86,6 +112,12 @@ body {
     border: 1px solid #ddd;
     padding: 10px;
     background-color: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+body.dark-mode .scrollable-category {
+    background-color: #444444;
+    border: 1px solid #666666;
 }
 
 .scrollable-category a {
@@ -96,8 +128,35 @@ body {
     border-bottom: 1px solid #ddd;
 }
 
+body.dark-mode .scrollable-category a {
+    color: white;
+    border-bottom: 1px solid #666666;
+}
+
 .scrollable-category a:hover {
     background-color: #f0f0f0;
+}
+
+body.dark-mode .scrollable-category a:hover {
+    background-color: #555555;
+}
+
+/* Button styles for dark mode toggle */
+#darkModeToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#darkModeToggle:hover {
+    background-color: #555;
 }
 
 /* Responsive styles */
