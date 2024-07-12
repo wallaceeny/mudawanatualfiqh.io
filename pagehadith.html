@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="pagehadith.css">
-        <class></class>
-    </head>
-    <body>
-        <h1> Bienvenue sur notre Hub Terminologie du Hadith</h1>
-        <br> <h2> Voici les différentes ressources disponibles :</h2>
-        <br> <h3> Introductions :</h3>
-        <br> <a href="Introduction_a_la_science_de_la_terminologie_du_hadith.pdf"> Ouvrir/Télécharger Introduction à la Terminologie de la science du Hadith </a>
-    <br> <h3> Etude des 40 Hadith de l'Imam An Nawawi : </h3>
-    <br> <a href="Cours Hadith Nawawi par Ustadh al Hilali - Introduction.pdf"> <button class="btn"><i class="fa fa-download"></i> Ouvrir/Télécharger Introduction Etude 40 Hadith Nawawi </a>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hub Hadith - Mudawanatu al Fiqh</title>
+    <link rel="stylesheet" href="pagetafsir.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info-section">
+            <div class="welcome-message">
+                <h2>Accueil</h2>
+                <p>Bienvenue sur notre hub Hadith, dédié aux différents cours dispensés au sujet des ahadiths (traditions prophétiques) ! Voici quelques informations à retenir :</p>
+                <ul>
+                    <li> Actuellement le Shaykh Ustadh al Hilali (qu'Allah le préserve) dispense des cours sur les 40 Hadiths Nawawi, tous les lundis et jeudis sur notre serveur discord, l'horaire peut varier entre 20h et 20h30. </li>
+                    <li> Le support des cours est l'explication des 40 hadiths nawawi par Ibn Rajab (qu'Allah lui fasse miséricorde) </li>
+            </div>
+            <div class="news">
+                <h2>News</h2>
+                <p>Voici les dernières nouvelles :</p>
+                <ul>
+                    <li>Le PDF de l'introduction à la science du hadith a été publié.</li>
+                    <li>Le PDF du cours d'introduction aux 40 hadiths Nawawi a été publié.</li>
+                </ul>
+            </div>
+            <div class="back-home">
+                <a href="index.html" class="back-home-button">Retour à la page d'accueil</a>
+            </div>
+        </div>
+        <div class="dropdown-section">
+            <div class="dropdown-content">
+                <div class="header">
+                    <h2>Cours en PDF</h2>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3>Introduction</h3>
+                        <div class="scrollable-category">
+                            <a href="Introduction_a_la_science_de_la_terminologie_du_hadith.pdf">Introduction à la science de la terminologie du Hadith</a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3>  L'explication des 40 Hadiths Nawawi </h3>
+                        <div class="scrollable-category">
+                            <a href=""> Les cours arriveront bientôt inchaAllah</a>
+                            <a href=""> </a>
+                            <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="darkModeToggle">Mode Sombre</button>
+
+    <script>
+        const toggleButton = document.getElementById('darkModeToggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                toggleButton.textContent = 'Mode Clair';
+            } else {
+                toggleButton.textContent = 'Mode Sombre';
+            }
+        });
+    </script>
+</body>
+</html>
