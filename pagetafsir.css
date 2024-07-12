@@ -10,25 +10,6 @@ body.dark-mode {
     color: #ffffff;
 }
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    box-sizing: border-box;
-}
-
-.header {
-    background: #0a79d4; /* Utilisation de la couleur bleue choisie */
-    padding: 16px;
-    color: white;
-    text-align: center;
-    width: calc(100% - 320px); /* Ajuster pour inclure la largeur du info-section */
-}
-
-body.dark-mode .header {
-    background: #005bb5;
-}
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -97,6 +78,17 @@ body.dark-mode .back-home-button {
 body.dark-mode .dropdown-content {
     background-color: #333333;
     border: 1px solid #555555;
+}
+
+.header {
+    background: #0a79d4; /* Utilisation de la couleur bleue choisie */
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
+
+body.dark-mode .header {
+    background: #005bb5;
 }
 
 .row {
@@ -169,10 +161,6 @@ body.dark-mode .scrollable-category a:hover {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    .header {
-        width: calc(100% - 40px); /* Adjust for padding only on small screens */
-    }
-
     .container {
         flex-direction: column;
     }
@@ -190,22 +178,4 @@ body.dark-mode .scrollable-category a:hover {
     .column {
         width: 100%;
     }
-}
-.header-container {
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 320px; /* Adjust based on the width of your side sections */
-    box-sizing: border-box;
-}
-
-.header {
-    flex: 1;
-    background: #0a79d4; /* Utilisation de la couleur bleue choisie */
-    padding: 16px;
-    color: white;
-    text-align: center;
-}
-
-body.dark-mode .header {
-    background: #005bb5;
 }
