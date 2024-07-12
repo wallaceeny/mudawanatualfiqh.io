@@ -2,47 +2,53 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hub Tafsir - Mudawanatu al Fiqh</title>
     <link rel="stylesheet" href="pagetafsir.css">
-    <title>Hub Tafsir</title>
 </head>
 <body>
-    <div class="header-container">
-            <div class="header">
-                <h1>Tafsir</h1>
-            </div>        
-    </div>
-
     <div class="container">
         <div class="info-section">
             <div class="welcome-message">
                 <h2>Accueil</h2>
-                <p>Bienvenue sur notre Hub Tafsir qui contiendra tous les cours en PDF au sujet des exégèses du Coran.</p>
+                <p>Bienvenue sur notre hub Tafsir, dédié aux exégèsees du Coran ! Voici quelques informations à retenir :</p>
+                <ul>
+                    <li>Les deux premiers cours sur le Tafsir de la Sourate Al Fatiha et de la Sourate An-Nas ainsi que l'introduction à la science du Tafsir ont été publiés.</li>
+                    <li>  Les cours sont dispensés par Ustadh al Hilali (qu'Allah le préserve) et le support des cours est le Tafsir de Juz 'Amma de Shaykh Sa3di (qu'Allah lui fasse miséricorde)</li>
+                    <li>Tout le monde peut prendre des notes ! Il suffit d'aller sur notre <a href="">Telegram</a> et de publier vos notes sur notre <a href="">serveur Discord</a></li>
+                </ul>
             </div>
             <div class="news">
-                <h2>Informations</h2>
-                <p>Les deux premiers cours sur le Tafsir de la Sourate Al Fatiha et de la Sourate An-Nas ainsi que l'introduction à la science du Tafsir ont été publiés.</p>
-                <p>Les cours sont dispensés par Ustadh al Hilali (qu'Allah le préserve) et le support des cours est le Tafsir de Juz 'Amma de Shaykh Sa3di (qu'Allah lui fasse miséricorde) </p>
+                <h2>News</h2>
+                <p>Voici les dernières nouvelles :</p>
+                <ul>
+                    <li>L'introduction à la science du Tafsir ainsi que le  tafsir des sourates Al Fatiha et An-Nas ont été publiés.</li>
+                    <li>Les cours de Tafsir sont en pause pour le moment et reprendront prochainement.</li>
+                </ul>
             </div>
             <div class="back-home">
-                <a class="back-home-button" href="#">Retour à la page d'accueil</a>
+                <a href="index.html" class="back-home-button">Retour à la page d'accueil</a>
             </div>
         </div>
-
         <div class="dropdown-section">
             <div class="dropdown-content">
+                <div class="header">
+                    <h2>Cours en PDF</h2>
+                </div>
                 <div class="row">
                     <div class="column">
-                        <h3>Introductions</h3>
+                        <h3>Introduction</h3>
                         <div class="scrollable-category">
-                            <a href="Introduction_a_la_science_du_tafsir.pdf">Introduction Science du Tafsir</a>
+                            <a href="Introduction_a_la_science_du_tafsir.pdf">Introduction à la science du Tafsir</a>
                         </div>
                     </div>
                     <div class="column">
-                        <h3>Tafsir par sourates</h3>
+                        <h3> Juzz 'Amma </h3>
                         <div class="scrollable-category">
-                            <a href="Tafsir Quran Sourate Al Fatiha - Ustadh al Hilali.pdf">Tafsir de la Sourate Al Fatiha</a>
-                            <a href="Cours de tafsir m3a 'Ustadh al Hilali Tafsir Sourate An-Nas.pdf">Tafsir de la Sourate An-Nas</a>
-                            <!-- Ajoutez les autres liens de sourate ici -->
+                            <a href="Tafsir_Quran_Juzz_Amma_m3a_Ustadh_Al_Hilali (1).pdf"> Sourate Al Fatiha (début du livre)</a>
+                            <a href="Cours de tafsir m3a 'Ustadh al Hilali Tafsir Sourate An-Nas.pdf">Sourate An Nas</a>
+                            <a href="#"> Sourate Al Falaq</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,6 +62,11 @@
         const toggleButton = document.getElementById('darkModeToggle');
         toggleButton.addEventListener('click', () => {
             document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                toggleButton.textContent = 'Mode Clair';
+            } else {
+                toggleButton.textContent = 'Mode Sombre';
+            }
         });
     </script>
 </body>
