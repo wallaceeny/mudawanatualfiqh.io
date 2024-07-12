@@ -1,31 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="fiqhhanbali.css">
-        <class></class>
-    </head>
-    <body>
-        <h1> Bienvenue sur notre Espace Hanbali </h1>
-<br><h2> Espace dédiées aux ressources des cours liées au madhab de l'Imam Ahmed (qu'Allah lui fasse miséricorde).</h2>
-<br> <h3> Fiqh des adorations </h3>
-<br> <h4> Purification :</h4>
-<br> <h4> Prière :</h4>
-<br> <h4> Zakaat :</h4>
-<br> <h4> Jeûne du mois de Ramadan :</h4>
-<br> 
-<br> 
-<a href="Jeune_Hanbali___Cours_n1___Introduction_aux_Fiqh_du_Jeune.pdf"><button class="btn"><i class="fa fa-download"></i> Télécharger/Ouvrir Introduction Fiqh du jeûne | Cours 1</button> </a> 
-<br>
-<br> 
-<br> 
-<br> 
-<a href="Jeune_Hanbali___Cours_n2___Quand_est-il_permis_de_rompre_son_jeune___.pdf"><button class="btn"><i class="fa fa-download"></i> Télécharger/Ouvrir Quand rompre son jeûne  | Cours 2</button> </a> 
-<br>
-<br> 
-<br> 
-<br> 
-<a href="Jeune_Hanbali___Cours_n3___Les_Annulatifs_du_Jeune_.pdf"><button class="btn"><i class="fa fa-download"></i> Télécharger/Ouvrir Les annulatifs du jeûne  | Cours 3</button> </a> 
-<br> <h4> Pélerinage : </h4>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hub Fiqh Hanbali </title>
+    <link rel="stylesheet" href="fiqhhanbali.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info-section">
+            <div class="welcome-message">
+                <h2>Accueil</h2>
+                <p>Bienvenue sur notre Espace Fiqh Hanbali, voici quelques informations à retenir :</p>
+                <ul>
+                    <li>Tous les cours traitent des sujets de jurisprudence concernant l'école de jurisprudence de l'Imam Ahmed Ibn Hanbal qu'Allah lui fasse miséricorde. </li>
+                    <li>Tout le monde peut prendre des notes ! Il suffit d'aller sur notre <a href="">Telegram</a> et de publier vos notes sur notre <a href="">serveur Discord</a></li>
+                    <li> Les cours seront prochainement dispensés par les étudiants en science inchaAllah.</li>
+                </ul>
+            </div>
+            <div class="news">
+                <h2> Actualités </h2>
+                <p>Voici les dernières nouvelles :</p>
+                <ul>
+                    <li> Les premiers PDF des cours sur la jurisprudence du jeûne ont été publiés. </li>
+                </ul>
+            </div>
+            <div class="back-home">
+                <a href="index.html" class="back-home-button">Retour à la page d'accueil</a>
+            </div>
+        </div>
+        <div class="dropdown-section">
+            <div class="dropdown-content">
+                <div class="header">
+                    <h2>Cours en PDF</h2>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3> Jurisprudence des adorations - Jeûne </h3>
+                        <div class="scrollable-category">
+                            <a href="Jeune_Hanbali___Cours_n1___Introduction_aux_Fiqh_du_Jeune.pdf">Introduction au Fiqh du jeûne </a>
+                            <a href="Jeune_Hanbali___Cours_n2___Quand_est-il_permis_de_rompre_son_jeune___.pdf"> Quand est il permis de rompre son jeûne ?</a>
+                            <a href="Jeune_Hanbali___Cours_n3___Les_Annulatifs_du_Jeune_.pdf"> Ce qui annule le jeûne. </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3></h3>
+                        <div class="scrollable-category"></div>
+                    </div>
+                    <div class="column">
+                        <h3></h3>
+                        <div class="scrollable-category"></div>
+                    </div>
+                    <div class="column">
+                        <h3></h3>
+                        <div class="scrollable-category"></div>
+                        <div class="column">
+                            <h3></h3>
+                            <div class="scrollable-category"></div>
+                        </div>
+                        <div class="column">
+                            <h3></h3>
+                            <div class="scrollable-category"></div>
+                        </div>
+                        <div class="column">
+                            <h3></h3>
+                            <div class="scrollable-category"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    </body>
+    <button id="darkModeToggle">Mode Sombre</button>
+
+    <script>
+        const toggleButton = document.getElementById('darkModeToggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                toggleButton.textContent = 'Mode Clair';
+            } else {
+                toggleButton.textContent = 'Mode Sombre';
+            }
+        });
+    </script>
+</body>
+</html>

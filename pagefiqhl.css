@@ -64,3 +64,21 @@ h1, h2 {
         width: 80%;
     }
 }
+.back-home {
+    margin: 20px;
+    text-align: center;
+}
+
+.back-home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.back-home-button:hover {
+    background-color: #333;
+}
