@@ -1,22 +1,76 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="pageadab.css">
-        <class></class>
-    </head>
-    <body>
-<div>
-<h1> Bienvenue sur notre Hub "Adab", regroupant les différents cours donnés concernant le bon comportement. </h1>
-<br>
-<br> 
-<h2> Voici les ressources disponibles :</h2>
-<br> 
-<br> <h2> Ahadith al Akhlaq - Cours </h2>
-<br> <h3> Plusieurs personnes ont écrit des notes sur le premier cours de Ahadith al Akhlaq, voici les différentes versions :  </h3>
-<br> <a href="Ahadith_Al-Akhlaq_cours_1..pdf"><button class="btn"><i class="fa fa-download"></i> Ouvrir/Télécharger Ahadith al Akhlaq Introduction [Version 1]</button> </a>
-<br> <a href="Ahadith_Al-Akhlaq_cours_1..pdf"><button class="btn"><i class="fa fa-download"></i> Ouvrir/Télécharger Ahadith al Akhlaq Introduction [Version 2]</button> </a>
-<br> <a href="Ahadith al akhlaq cours 1 - introduction.pdf"><button class="btn"><i class="fa fa-download"></i> Ouvrir/Télécharger Ahadith al Akhlaq Introduction [Version 3]</button> </a>
-<br> <h4> Toutes les versions se valent et sont bonnes à prendre !</h4>
-<br> <h4> Ces versions correspondent au premier cours de Ahadith al Akhlaq disponible sur Telegram.</h4>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hub Hadith - Mudawanatu al Fiqh</title>
+    <link rel="stylesheet" href="pagehadith.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info-section">
+            <div class="welcome-message">
+                <h2>Accueil</h2>
+                <p>Bienvenue sur notre hub Hadith, dédié aux différents cours dispensés au sujet des ahadiths (traditions prophétiques) ! Voici quelques informations à retenir :</p>
+                <ul>
+                    <li> Actuellement le Shaykh Ustadh Abou Ahmed (qu'Allah le préserve) dispense des cours sur le livre Ahadith al ahlaq tous les mercredis sur notre serveur discord, l'horaire peut varier entre 20h et 20h30. </li>
+                    <li>  </li>
+            </div>
+            <div class="news">
+                <h2>News</h2>
+                <p>Voici les dernières nouvelles :</p>
+                <ul>
+
+                    <li>Plusieurs membres ont décidé d'écrire des PDF de prises de notes, vous aurez ainsi 3 versions différentes.</li>
+                    <li>Ainsi les introductions ont été publiées.</li>
+                </ul>
+            </div>
+            <div class="back-home">
+                <a href="index.html" class="back-home-button">Retour à la page d'accueil</a>
+            </div>
+        </div>
+        <div class="dropdown-section">
+            <div class="dropdown-content">
+                <div class="header">
+                    <h2>Cours en PDF</h2>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3>Introduction</h3>
+                        <div class="scrollable-category">
+                            <a href="Introduction_a_la_science_de_la_terminologie_du_hadith.pdf">Introduction à la science de la terminologie du Hadith</a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3>  L'introduction de Ahadith Al Akhlaq  </h3>
+                        <div class="scrollable-category">
+                            <a href="Ahadith_Al-Akhlaq_cours_1..pdf"> Introduction (version 2) </a>
+                            <a href="Cours_n1_.pdf"> Introduction (version 1) </a>
+                            <a href="Ahadith al akhlaq cours 1 - introduction.pdf"> Introduction (version 3)</a>
+                            <h3>Les cours de l'explication de Ahadith Al Akhlaq </h3>
+                            <div class="scrollable-category">
+                                <a href=""> </a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="darkModeToggle">Mode Sombre</button>
+
+    <script>
+        const toggleButton = document.getElementById('darkModeToggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                toggleButton.textContent = 'Mode Clair';
+            } else {
+                toggleButton.textContent = 'Mode Sombre';
+            }
+        });
+    </script>
+</body>
+</html>
