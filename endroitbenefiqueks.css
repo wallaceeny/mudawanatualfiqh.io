@@ -9,13 +9,12 @@ body {
 header {
     background-color: #4CAF50;
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 1rem 0;
-    
 }
 
 h1 {
-    margin: 0;
+    margin: 1rem 0; /* Ajout de marges pour éloigner le titre des bordures */
 }
 
 #communities {
@@ -24,7 +23,6 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem;
-    font-family: 'Trebuchet MS'
 }
 
 .community {
@@ -65,17 +63,20 @@ h1 {
     background-color: #45a049;
 }
 
-.back-home-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    text-align: left;
+footer {
+    text-align: center;
+    margin: 2rem 0; /* Marges pour séparer le footer des autres contenus */
 }
 
+.home-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
 
-.back-home-button:hover {
-    background-color: #555;
+.home-btn:hover {
+    background-color: #45a049;
 }
