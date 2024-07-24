@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #8A897C; /* Rouge foncé */
+    background-color: #3F403F; /* Rouge foncé */
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,17 +8,17 @@ body {
 }
 
 h1 {
-    color: #ffffff; /* Rouge tomato */
+    color: #E6E8E6; /* Rouge tomato */
     margin-top: 20px;
 }
 
 h2, h3, p {
-    color: #ffffff; /* Rouge saumon */
+    color: #E6E8E6; /* Rouge saumon */
     margin: 20px 0;
 }
 
 header {
-    background-color: #BDBBB0; /* Rouge foncé */
+    background-color: #CED0CE; /* Rouge foncé */
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ header {
 
 .logo h1 {
     margin: 0;
-    color: #ffffff; /* Rouge tomato */
+    color: #E6E8E6; /* Rouge tomato */
 }
 
 nav {
@@ -54,13 +54,13 @@ nav {
 
 .menu li a {
     text-decoration: none;
-    color: #ffffff; /* Rouge tomato */
+    color: #E6E8E6; /* Rouge tomato */
     font-size: 18px;
     transition: color 0.3s;
 }
 
 .menu li a:hover {
-    color: #ffffff;
+    color: #E6E8E6;
 }
 
 .burger-menu {
@@ -72,7 +72,7 @@ nav {
 .burger-menu span {
     width: 25px;
     height: 3px;
-    background-color: #ffffff; /* Rouge tomato */
+    background-color: #E6E8E6; /* Rouge tomato */
     margin: 4px 0;
     transition: all 0.3s;
 }
@@ -84,7 +84,7 @@ nav {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: #025a3d;; /* Rouge foncé */
+    background-color: #3F403F;; /* Rouge foncé */
     z-index: 1000;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -92,7 +92,7 @@ nav {
 .mobile-menu a {
     padding: 15px;
     text-decoration: none;
-    color: #ffffff; /* Rouge tomato */
+    color: #E6E8E6; /* Rouge tomato */
     border-bottom: 1px solid #ffffff;
     transition: background-color 0.3s;
 }
@@ -112,7 +112,7 @@ nav {
 .button {
     display: inline-block;
     border-radius: 25px;
-    background: linear-gradient(145deg, #BDBBB0, #ffffff); /* Dégradé de rouge cramoisi à rouge orange */
+    background: linear-gradient(145deg, #475841, #9FB8AD); /* Dégradé de rouge cramoisi à rouge orange */
     box-shadow: 0 8px 15px rgba(0,0,0,0.1);
     color: #000000;
     text-align: center;
@@ -142,7 +142,7 @@ nav {
 }
 
 .button:hover {
-    background: linear-gradient(145deg, #ffffff, #BDBBB0); /* Dégradé inversé */
+    background: linear-gradient(145deg, #9FB8AD, #475841); /* Dégradé inversé */
     box-shadow: 0 15px 20px rgba(0,0,0,0.2);
     transform: translateY(-2px);
 }
