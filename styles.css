@@ -142,7 +142,7 @@ nav {
 }
 
 .button:hover {
-    background: linear-gradient(145deg, #DC851F, #E75920); /* Dégradé inversé */
+    background: linear-gradient(145deg, #C1BCAC, #979B8D); /* Dégradé inversé */
     box-shadow: 0 15px 20px rgba(0,0,0,0.2);
     transform: translateY(-2px);
 }
