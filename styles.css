@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #214E34; /* Rouge foncé */
+    background-color: #23231A; /* Rouge foncé */
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,17 +8,17 @@ body {
 }
 
 h1 {
-    color: #EFD0CA; /* Rouge tomato */
+    color: #FE5F00; /* Rouge tomato */
     margin-top: 20px;
 }
 
 h2, h3, p {
-    color: #EFD0CA; /* Rouge saumon */
+    color: #FE5F00; /* Rouge saumon */
     margin: 20px 0;
 }
 
 header {
-    background-color: #5C7457; /* Rouge foncé */
+    background-color: #322F20; /* Rouge foncé */
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ header {
 
 .logo h1 {
     margin: 0;
-    color: #EFD0CA; /* Rouge tomato */
+    color: #FE5F00; /* Rouge tomato */
 }
 
 nav {
@@ -54,7 +54,7 @@ nav {
 
 .menu li a {
     text-decoration: none;
-    color: #EFD0CA; /* Rouge tomato */
+    color: #FE5F00; /* Rouge tomato */
     font-size: 18px;
     transition: color 0.3s;
 }
@@ -92,7 +92,7 @@ nav {
 .mobile-menu a {
     padding: 15px;
     text-decoration: none;
-    color: #EFD0CA; /* Rouge tomato */
+    color: #FE5F00; /* Rouge tomato */
     border-bottom: 1px solid #ffffff;
     transition: background-color 0.3s;
 }
@@ -112,7 +112,7 @@ nav {
 .button {
     display: inline-block;
     border-radius: 25px;
-    background: linear-gradient(145deg, #979B8D, #C1BCAC); /* Dégradé de rouge cramoisi à rouge orange */
+    background: linear-gradient(145deg, #6A5837, #988F2A); /* Dégradé de rouge cramoisi à rouge orange */
     box-shadow: 0 8px 15px rgba(0,0,0,0.1);
     color: #000000;
     text-align: center;
