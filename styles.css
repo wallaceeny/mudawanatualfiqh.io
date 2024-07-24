@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #343330; /* Rouge foncé */
+    background-color: #214E34; /* Rouge foncé */
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,17 +8,17 @@ body {
 }
 
 h1 {
-    color: #FFA737; /* Rouge tomato */
+    color: #EFD0CA; /* Rouge tomato */
     margin-top: 20px;
 }
 
 h2, h3, p {
-    color: #FFA737; /* Rouge saumon */
+    color: #EFD0CA; /* Rouge saumon */
     margin: 20px 0;
 }
 
 header {
-    background-color: #45462A; /* Rouge foncé */
+    background-color: #5C7457; /* Rouge foncé */
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ header {
 
 .logo h1 {
     margin: 0;
-    color: #FFA737; /* Rouge tomato */
+    color: #EFD0CA; /* Rouge tomato */
 }
 
 nav {
@@ -54,7 +54,7 @@ nav {
 
 .menu li a {
     text-decoration: none;
-    color: #FFA737; /* Rouge tomato */
+    color: #EFD0CA; /* Rouge tomato */
     font-size: 18px;
     transition: color 0.3s;
 }
@@ -72,7 +72,7 @@ nav {
 .burger-menu span {
     width: 25px;
     height: 3px;
-    background-color: #343330; /* Rouge tomato */
+    background-color: #214E34; /* Rouge tomato */
     margin: 4px 0;
     transition: all 0.3s;
 }
@@ -84,7 +84,7 @@ nav {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: #343330;; /* Rouge foncé */
+    background-color: #214E34;; /* Rouge foncé */
     z-index: 1000;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -92,7 +92,7 @@ nav {
 .mobile-menu a {
     padding: 15px;
     text-decoration: none;
-    color: #FFA737; /* Rouge tomato */
+    color: #EFD0CA; /* Rouge tomato */
     border-bottom: 1px solid #ffffff;
     transition: background-color 0.3s;
 }
@@ -112,7 +112,7 @@ nav {
 .button {
     display: inline-block;
     border-radius: 25px;
-    background: linear-gradient(145deg, #E75920, #DC851F); /* Dégradé de rouge cramoisi à rouge orange */
+    background: linear-gradient(145deg, #979B8D, #C1BCAC); /* Dégradé de rouge cramoisi à rouge orange */
     box-shadow: 0 8px 15px rgba(0,0,0,0.1);
     color: #000000;
     text-align: center;
