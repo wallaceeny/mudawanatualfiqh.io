@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #8F5C38; /* Rouge foncé */
+    background-color: #857E72;  /* Rouge foncé */
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ h2, h3, p {
 }
 
 header {
-    background-color: #C9B37B ; /* Rouge foncé */
+    background-color: #8F5C38 ; /* Rouge foncé */
     padding: 20px;
     display: flex;
     justify-content: space-between;
