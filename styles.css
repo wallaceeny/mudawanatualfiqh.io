@@ -118,7 +118,7 @@ nav {
 .button {
     display: inline-block;
     border-radius: 25px;
-    background: linear-gradient(145deg, #52DEE5, #92DCE5); /* Dégradé de rouge cramoisi à rouge orange */
+    background: linear-gradient(145deg, #92DCE5, #52DEE5); /* Dégradé de rouge cramoisi à rouge orange */
     box-shadow: 0 8px 15px rgba(0,0,0,0.1);
     color: #000000;
     text-align: center;
