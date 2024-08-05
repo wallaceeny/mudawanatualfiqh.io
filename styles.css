@@ -26,7 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 8px #C8B8D8 (0,0,0,0.1);
+    box-shadow: 0 4px 8px rgb(186, 9, 221);
 }
 
 .menu-container {
