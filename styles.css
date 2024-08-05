@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #2B2D42;  /* Rouge foncé */
+    background-color: #000000;  /* Rouge foncé */
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
@@ -9,13 +9,13 @@ body {
 
 
 h1 {
-    color: #ffffff; /* Rouge tomato */
+    color: #F9F4F5; /* Rouge tomato */
     margin-top: 20px;
    
 }
 
 h2, h3, p {
-    color: #ffffff; /* Rouge saumon */
+    color: #F9F4F5; /* Rouge saumon */
     margin: 20px 0;
     
 }
@@ -26,7 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px #C8B8D8 (0,0,0,0.1);
 }
 
 .menu-container {
@@ -115,8 +115,8 @@ nav {
 .button {
     display: inline-block;
     border-radius: 25px;
-    background: linear-gradient(145deg,#242429, #f8F32B); /* Dégradé de rouge cramoisi à rouge orange */
-    box-shadow: 0 8px 15px rgb(255, 251, 0);
+    background: linear-gradient(145deg,#70587C, #502F4C); /* Dégradé de rouge cramoisi à rouge orange */
+    box-shadow: 0 8px 15px #C8B8D8 (209, 7, 125);
     color: #000000;
     text-align: center;
     font-size: 20px;
@@ -145,8 +145,8 @@ nav {
 }
 
 .button:hover {
-    background: linear-gradient(145deg, #f8F32B, #242429); /* Dégradé inversé */
-    box-shadow: 0 15px 20px rgb(255, 251, 0);
+    background: linear-gradient(145deg, #502F4C, #70587C); /* Dégradé inversé */
+    box-shadow: 0 15px 20px #C8B8D8 (255, 251, 0);
     transform: translateY(-2px);
 }
 
