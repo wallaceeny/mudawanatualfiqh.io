@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #000000;  /* Rouge foncé */
+    background-color: #4C5C68;  /* Rouge foncé */
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
@@ -21,12 +21,12 @@ h2, h3, p {
 }
 
 header {
-    background-color: #000000    ; /* Rouge foncé */
+    background-color: #46494C    ; /* Rouge foncé */
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 8px rgb(186, 9, 221);
+    box-shadow: 0 4px 8px rgb(152, 217, 255);
 }
 
 .menu-container {
@@ -115,7 +115,7 @@ nav {
 .button {
     display: inline-block;
     border-radius: 25px;
-    background: linear-gradient(145deg,#70587C, #502F4C); /* Dégradé de rouge cramoisi à rouge orange */
+    background: linear-gradient(145deg,#C5C3C6, #1985A1); /* Dégradé de rouge cramoisi à rouge orange */
     box-shadow: 0 8px 15px #b422e0 (209, 7, 125);
     color: #ffffff;
     text-align: center;
@@ -145,8 +145,8 @@ nav {
 }
 
 .button:hover {
-    background: linear-gradient(145deg, #502F4C, #70587C); /* Dégradé inversé */
-    box-shadow: 0 15px 20px #b422e0 (255, 251, 0);
+    background: linear-gradient(145deg, #1985A1, #C5C3C6); /* Dégradé inversé */
+    box-shadow: 0 15px 20px #ffe600 (255, 251, 0);
     transform: translateY(-2px);
 }
 
