@@ -1,9 +1,72 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="pagesira.css">
-        <class></class>
-    </head>
-    <body>
-    <h1> Bienvenue sur notre Hub "Sira", ayant pour but de regrouper les prises de notes des cours fait sur la biographie de notre noble Prophète (que la paix soit sur lui). </h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub Sira - Mudawanatu al Fiqh</title>
+    <link rel="stylesheet" href="pagesira.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info-section">
+            <div class="welcome-message">
+                <h2>Accueil</h2>
+                <p>Bienvenue sur notre hub Sira, le hub dédié à la Biographie du prophète (que la paix soit sur lui) ! Voici quelques informations à retenir :</p>
+                <ul>
+                    <li>Les premiers cours de sira sont dispensés par Oustadh لحسن المستغنمي الفرنسوي qu'Allah le préserve, ils auront lieu pour le moment tous les samedis à 21h (horaire flexible).</li>
+                </ul>
+            </div>
+            <div class="news">
+                <h2>News</h2>
+                <p>Voici les dernières nouvelles :</p>
+                <ul>
+                    <li> Le premier cours sur le livre "Khatim al anbiyaa' va être publié</li>
+                    <li>.</li>
+                </ul>
+            </div>
+            <div class="back-home">
+                <a href="index.html" class="back-home-button">Retour à la page d'accueil</a>
+            </div>
+        </div>
+        <div class="dropdown-section">
+            <div class="dropdown-content">
+                <div class="header">
+                    <h2>Cours en PDF</h2>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3>Introductions</h3>
+                        <div class="scrollable-category">
+                            <a href=""></a>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <h3>L'explication de Khatim al anbiyaa'</h3>
+                        <div class="scrollable-category">
+                            <a href=""> Cours 1 - Introduction</a>
+                            <a href=""> Cours 2 - </a>
+                            <a href=""> Cours 3  - </a>
+                            <a href=""> Cours 4 -</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="darkModeToggle">Mode Sombre</button>
+
+    <script>
+        const toggleButton = document.getElementById('darkModeToggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                toggleButton.textContent = 'Mode Clair';
+            } else {
+                toggleButton.textContent = 'Mode Sombre';
+            }
+        });
+    </script>
+</body>
+</html>
